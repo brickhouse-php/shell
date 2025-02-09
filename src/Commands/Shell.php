@@ -53,6 +53,9 @@ class Shell extends Command
                 'bufferPrompt' => '... ',
                 'replayPrompt' => '- ',
                 'returnValue' => '=> ',
+                'styles' => [
+                    'info' => ['yellow']
+                ]
             ]
         ]);
 
